@@ -1,0 +1,195 @@
+@import url(//db.onlinewebfonts.com/c/63467b9cbd4a4d7eafb5e64946ecaa18?family=Maison+Neue);
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+  background-color: #000;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  border: 1px solid green;
+}
+
+.group-column {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+.border {
+  border: 1px solid green;
+}
+
+.note-margin {
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  color: yellowgreen;
+}
+
+h1,
+h2,
+p {
+  margin: 5px;
+  color: yellowgreen;
+}
+
+a.main-link {
+  color: greenyellow;
+}
+
+a:hover.main-link,
+a:visited.main-link {
+  color: greenyellow;
+}
+
+a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  color: yellowgreen;
+}
+
+li {
+  margin-bottom: 10px;
+  color: yellowgreen;
+}
+
+button {
+  margin: 5px;
+  background-color: green;
+  color: greenyellow;
+  border-color: green greenyellow;
+}
+
+::placeholder {
+  color: green;
+}
+
+option {
+  color: green;
+}
+
+label {
+  color: greenyellow;
+}
+
+input {
+  background-color: greenyellow;
+  border-color: green;
+  color: green;
+}
+
+textarea {
+  background-color: greenyellow;
+  border-color: green;
+  color: green;
+}
+
+select {
+  background-color: greenyellow;
+  border-color: green;
+  color: green;
+}
+
+@media all and (min-width: 1000px) {
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    border: 1px solid green;
+  }
+
+  .group-column {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+  }
+
+  .group-row {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .item {
+    flex: 1;
+  }
+
+  .item-double {
+    flex: 4;
+  }
+
+  .note-group-row {
+    justify-content: space-between;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .align-self-center {
+    align-self: center;
+  }
+
+  .border {
+    border: 1px solid green;
+  }
+
+  .note-margin {
+    margin-bottom: 20px;
+  }
+
+  .padding {
+    padding: 10px;
+  }
+
+  h1 {
+    padding: 0 0 0 30px;
+    text-align: left;
+    color: yellowgreen;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+
+  li {
+    margin-bottom: 15px;
+    color: yellowgreen;
+  }
+
+  h2 {
+    margin: 0 0 15px 0;
+    color: yellowgreen;
+  }
+
+  form.group-column {
+    width: 50%;
+    margin: auto;
+  }
+
+  textarea {
+    height: 300px;
+  }
+}
